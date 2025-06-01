@@ -1,0 +1,255 @@
+// Tablet
+@media (max-width: 1023px) {
+    header {
+        .container {
+            flex-wrap: wrap;
+            height: auto;
+        }
+
+        .contact-info-list {
+            order: 3;
+            width: 100%;
+            margin: auto;
+        }
+    }
+
+    .reason {
+        flex-direction: column;
+        gap: 40px;
+
+        .content .heading {
+            text-align: center;
+        }
+
+        .poster {
+            max-width: none;
+        }
+    }
+
+    .lecturer-info {
+        .photo-and-info {
+            flex-direction: column;
+
+            .photo {
+                order: 2;
+
+                .lecturer {
+                    width: 100%;
+                }
+            }
+
+            .info .detail {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .ai-power-1 {
+        .heading {
+            h2 {
+                font-size: 3rem;
+            }
+        }
+
+        .content {
+            flex-direction: column;
+        }
+    }
+
+    .ai-power-2 {
+        .stats-list {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .why {
+        .container {
+            flex-direction: column;
+        }
+
+        .title {
+            h2 {
+                text-align: center;
+            }
+
+            img {
+                max-width: none;
+            }
+        }
+
+        .content {
+            h3 {
+                margin-top: 32px;
+            }
+        }
+    }
+
+    .participants {
+        .container {
+            grid-template-columns: 1fr;
+            row-gap: 40px;
+        }
+
+        .content {
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+}
+
+// Mobile
+@media (max-width: 767px) {
+    header {
+        .contact-info-list {
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .register-btn {
+            padding: 14px 20px;
+        }
+    }
+
+    .intro {
+        .heading {
+            .desc-1 {
+                font-size: 2.4rem;
+            }
+        }
+
+        .reason .content .heading {
+            span:first-child {
+                font-size: 2.8rem;
+            }
+
+            span:last-child {
+                font-size: 3.2rem;
+            }
+        }
+
+        .lecturer-info {
+            .title {
+                p {
+                    font-size: 2.2rem;
+                }
+            }
+
+            .photo-and-info .info .detail {
+                padding-left: 24px;
+                padding-right: 24px;
+
+                li {
+                    text-align: justify;
+                }
+
+                .edu-tech-group {
+                    flex-direction: column;
+                    gap: 0;
+                }
+            }
+        }
+    }
+
+    .ai-power-1 {
+        .heading {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            h2 {
+                text-align: center;
+                font-size: 2.2rem;
+            }
+
+            a {
+                font-size: 2.4rem;
+                padding: 16px 48px;
+            }
+        }
+
+        .content {
+            ul {
+                grid-template-columns: 1fr;
+
+                h3 {
+                    margin: 8px 0;
+                }
+
+                li {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .ai-power-2 .stats-list {
+        grid-template-columns: 1fr;
+    }
+
+    .why .title h2 strong {
+        font-size: 3.6rem;
+    }
+
+    .why .content {
+        .basic {
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+
+            .heading {
+                justify-content: center;
+            }
+        }
+
+        .detail-list li {
+            align-items: flex-start;
+
+            p {
+                width: 100%;
+            }
+
+            svg {
+                margin-top: 8px;
+            }
+        }
+    }
+
+    .timeline h2 {
+        font-size: 3.2rem;
+    }
+
+    .timeline .session-list {
+        grid-template-columns: 1fr;
+
+        .session .heading .week {
+            font-size: 2rem;
+        }
+
+        .session .detail {
+            font-size: 1.8rem;
+        }
+    }
+
+    .photos-and-logos {
+        .photos h2 {
+            font-size: 3.2rem;
+        }
+
+        .logos h2 {
+            font-size: 2.6rem;
+        }
+    }
+
+    .contact-and-register .container {
+        flex-direction: column;
+    }
+
+    .contact-and-register .contact-info h3 {
+        font-size: 2.8rem;
+    }
+
+    .contact-and-register .form-container {
+        padding: 32px 36px;
+    }
+}
