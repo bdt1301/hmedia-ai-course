@@ -100,7 +100,7 @@ header .register-btn {
   display: block;
   background-color: #1c3987;
   max-width: 232px;
-  padding: 8px 28px;
+  padding: 12px 24px;
   border-radius: 40px;
   color: #fff;
   font-size: 1.8rem;
@@ -109,7 +109,7 @@ header .register-btn {
 }
 
 .intro {
-  padding-top: 38px;
+  padding-top: 60px;
   background-image: url("../img/bg-1.png");
   background-size: cover;
 }
@@ -179,6 +179,7 @@ header .register-btn {
 .reason .content .reason-item .text {
   font-size: 2.2rem;
   line-height: 1.6;
+  text-align: justify;
 }
 .reason .content .reason-item .text strong {
   font-weight: 700;
@@ -261,11 +262,11 @@ header .register-btn {
 }
 
 .ai-power-1 {
-  padding: 90px 0;
+  padding: 60px 0;
   background-image: url("../img/bg-2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: -1080px 0;
+  background-position: -900px 0;
 }
 .ai-power-1 .heading {
   display: flex;
@@ -543,6 +544,7 @@ header .register-btn {
 }
 .participants .content ol p {
   font-weight: 400;
+  text-align: justify;
 }
 .participants img {
   display: block;
@@ -607,7 +609,7 @@ header .register-btn {
 }
 
 .photos-and-logos {
-  padding: 64px 0;
+  padding: 60px 0;
 }
 .photos-and-logos .photos h2 {
   text-align: center;
